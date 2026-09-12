@@ -1,0 +1,349 @@
+{
+  "chapters": {
+    "AI Project Cycle & Ethics": {
+      "description": "AI Project Cycle stages, ethical frameworks, AI domains, bias, AI access",
+      "marks_weightage": 7,
+      "question_types": [
+        {
+          "type": "AI Project Cycle Stages",
+          "example": "The AI Project Cycle is a ___ that a company must follow to derive value from an AI project. (a) Step-by-step process (b) Random process (c) Reverse process (d) None",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) Option",
+          "num_options": 4
+        },
+        {
+          "type": "AI Domains",
+          "example": "Chatbots and smart bots are related to which domain of AI? (a) Data Science (b) Computer Vision (c) NLP (d) Machine Learning",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) Option",
+          "num_options": 4
+        },
+        {
+          "type": "Ethical Frameworks",
+          "example": "Assertion(A): Virtue-based framework focuses on character and intentions. Reason(R): It evaluates actions aligning with honesty, compassion, integrity.",
+          "options_style": "(a) Both correct, R explains A  (b) Both correct, R doesn't explain A  (c) A correct, R incorrect  (d) A incorrect, R correct",
+          "num_options": 4
+        },
+        {
+          "type": "AI Bias & Ethics",
+          "example": "Results based on discriminatory assumptions made while developing an algorithm by the developer is called ___. (a) AI Ethics (b) AI Bias (c) Test Data (d) Training Data",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) Option",
+          "num_options": 4
+        },
+        {
+          "type": "AI Access & 4W Canvas",
+          "example": "Which element helps us understand and categorize who is directly and indirectly affected by the problem in 4W canvas? (a) Who (b) What (c) Where (d) Why",
+          "options_style": "(a) Who  (b) What  (c) Where  (d) Why",
+          "num_options": 4
+        },
+        {
+          "type": "Problem Scoping",
+          "example": "How do you identify problem scoping in an AI project? (a) Understand why project started (b) Define primary objectives (c) Outline work statement (d) All of the above",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) All of the above",
+          "num_options": 4
+        }
+      ],
+      "pyq_examples": [
+        "The AI Project Cycle is a ___ that a company must follow in order to derive value from an AI project.",
+        "Chatbots and smart bots are related to ___ domain of AI.",
+        "Results based on discriminatory assumptions made while developing algorithm is called ___.",
+        "Which element helps us understand and categorize who is directly and indirectly affected by the problem?",
+        "How can you identify the problem scoping in the project?",
+        "What is AI Access?",
+        "What do you do in the second and third stages of an AI Project cycle?",
+        "Assertion(A): Virtue-based framework focuses on character and intentions of individuals."
+      ]
+    },
+    "Modeling in AI": {
+      "description": "AI vs ML vs DL, supervised/unsupervised/reinforcement learning, neural networks, perceptron, ANN, CNN",
+      "marks_weightage": 11,
+      "question_types": [
+        {
+          "type": "AI vs ML vs DL",
+          "example": "Which of the following is NOT AI? (i) Air Conditioner (ii) Automatic Washing Machine (iii) Self-Driving Car (iv) Smart TV — (a) i,ii,iii (b) i,ii (c) i,ii,iv (d) iii,iv",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) Option",
+          "num_options": 4
+        },
+        {
+          "type": "Types of ML Models",
+          "example": "Sirisha and Divisha want to make a model which organizes unlabeled input data into groups based on features. Which learning model should they use?",
+          "options_style": "(a) Supervised  (b) Unsupervised  (c) Reinforcement  (d) Rule-based",
+          "num_options": 4
+        },
+        {
+          "type": "Neural Networks",
+          "example": "Divya was learning neural networks. She understood there were three layers. Help her identify the layer that does PROCESSING in the neural network. (a) Output layer (b) Hidden layer (c) Input layer (d) Data layer",
+          "options_style": "(a) Output layer  (b) Hidden layer  (c) Input layer  (d) Data layer",
+          "num_options": 4
+        },
+        {
+          "type": "Perceptron / ANN",
+          "example": "A company screens job applicants using a model with weights: data science degree=0.6, internship=0.4, Python=0.5, communication=0.3. Bias=0.3. y=w1x1+w2x2+w3x3+w4x4+(1×b). What is y?",
+          "options_style": "(a) 1.2  (b) 1.4  (c) 1.7  (d) 2.0",
+          "num_options": 4
+        },
+        {
+          "type": "CNN and Deep Learning",
+          "example": "This deep learning model processes images by learning to assign importance (weights and biases) to various features allowing it to distinguish one object from another. Identify it.",
+          "options_style": "(a) ANN  (b) CNN  (c) RNN  (d) Rule-based",
+          "num_options": 4
+        },
+        {
+          "type": "Reinforcement Learning",
+          "example": "It learns from its environment and experience, builds on capabilities based on knowledge, can collaborate with humans and learn from their behavior. Identify this chatbot type.",
+          "options_style": "(a) Script Bot  (b) Smart Bot  (c) AI Chatbot  (d) ML Chatbot",
+          "num_options": 4
+        }
+      ],
+      "pyq_examples": [
+        "Which of the following is Not AI? Air Conditioner, Automatic Washing Machine, Self-Driving Car, Smart TV",
+        "Statement1: There are four layers in a neural network. Statement2: The first layer of the neural network is known as the output layer.",
+        "Statement A: Neural networks are made up of layers of neurons. Statement B: Human brain consists of millions of neurons.",
+        "Identify and explain the types of learning-based approaches.",
+        "Divya was learning neural networks. Help her identify the layer that does processing.",
+        "How is reinforcement learning different from supervised and unsupervised learning?",
+        "A company is using a simple AI model to screen job applicants — perceptron calculation."
+      ]
+    },
+    "Evaluating Models": {
+      "description": "Accuracy, precision, recall, F1 score, confusion matrix, train-test split, overfitting, error rate",
+      "marks_weightage": 10,
+      "question_types": [
+        {
+          "type": "Confusion Matrix",
+          "example": "A model predicts: TP=60, FP=25, FN=5, TN=10. Draw confusion matrix and calculate total tests, precision, recall, F1 score.",
+          "options_style": "Numerical/fill — precision = TP/(TP+FP), recall = TP/(TP+FN), F1 = 2PR/(P+R)",
+          "num_options": 4
+        },
+        {
+          "type": "Accuracy & Error",
+          "example": "A house was predicted to cost ₹4,53,000 but actual was ₹4,88,000. What is the error rate (rounded to 3 decimal places)? (a) 0.058 (b) 0.071 (c) 0.092 (d) 0.117",
+          "options_style": "(a) 0.058  (b) 0.071  (c) 0.092  (d) 0.117",
+          "num_options": 4
+        },
+        {
+          "type": "Precision & Recall",
+          "example": "In spam detection: 1000 emails, 300 spam, system correctly identifies 240 spam but marks 60 legitimate as spam. What is precision? (a) 0.80 (b) 0.70 (c) 0.75 (d) 0.90",
+          "options_style": "(a) 0.80  (b) 0.70  (c) 0.75  (d) 0.90",
+          "num_options": 4
+        },
+        {
+          "type": "F1 Score",
+          "example": "Statement 1: F1 score is evaluated based on precision or recall. Statement 2: When F1 score is 0, model accuracy is 100%. Which is correct?",
+          "options_style": "(a) Both correct  (b) Both incorrect  (c) Only S1 correct  (d) Only S2 correct",
+          "num_options": 4
+        },
+        {
+          "type": "Train-Test Split",
+          "example": "Why is it NOT recommended to evaluate a ML model using the same data it was trained on? (a) Helps learn faster (b) Reduces bias (c) Improves performance on unseen data (d) May lead to overfitting",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) May lead to overfitting",
+          "num_options": 4
+        },
+        {
+          "type": "Evaluation Metrics Identification",
+          "example": "Each evaluation metric represents the ratio of true negatives to all actual negative instances, commonly used in binary classification. (a) Accuracy (b) Precision (c) Recall (d) Specificity",
+          "options_style": "(a) Accuracy  (b) Precision  (c) Recall  (d) Specificity",
+          "num_options": 4
+        }
+      ],
+      "pyq_examples": [
+        "IT company confusion matrix: YES/YES=60, YES/NO=25, NO/YES=5, NO/NO=10. Calculate precision, recall, F1.",
+        "Each evaluation metric represents ratio of true negatives to all actual negative instances.",
+        "Statement 1: F1 score is evaluated based on precision or recall. Statement 2: When F1=0, accuracy=100%.",
+        "A house predicted ₹4,53,000 actual ₹4,88,000 — error rate?",
+        "Spam detection: 240 correct spam, 60 false positives — precision?",
+        "Sarthak trained model on all data and tested on same data — name the concept.",
+        "Define confusion matrix.",
+        "AI model predicts pass/fail: TP=40, TN=30, FP=20, FN=10. Draw confusion matrix, calculate accuracy."
+      ]
+    },
+    "Computer Vision": {
+      "description": "CV concepts, pixels, grayscale, RGB, resolution, image classification, object detection, CNN, convolution, Lobe, Teachable Machine",
+      "marks_weightage": 4,
+      "question_types": [
+        {
+          "type": "CV Concepts & Applications",
+          "example": "A self-driving car fails to detect pedestrians at night. Which domain of AI should be enhanced? (a) NLP (b) Statistical Data (c) Recommendation Systems (d) Computer Vision",
+          "options_style": "(a) NLP  (b) Statistical Data  (c) Recommendation Systems  (d) Computer Vision",
+          "num_options": 4
+        },
+        {
+          "type": "Pixels & Resolution",
+          "example": "The numbers 1280x1024, 1920x1080, 640x480 represent number of pixels in width and height. What is the correct term? (a) Pixel Depth (b) Resolution (c) Colour Depth (d) Classification",
+          "options_style": "(a) Pixel Depth  (b) Resolution  (c) Colour Depth  (d) Classification",
+          "num_options": 4
+        },
+        {
+          "type": "Grayscale & RGB",
+          "example": "What does the pixel value represent in a grayscale image? (a) The color (b) The intensity (c) The contrast (d) The brightness",
+          "options_style": "(a) Color  (b) Intensity  (c) Contrast  (d) Brightness",
+          "num_options": 4
+        },
+        {
+          "type": "Object Detection vs Classification",
+          "example": "The term that refers to identifying and locating real-world objects like faces, bicycles in images/videos, used in image retrieval and automated vehicle parking is ___. (a) Image Classification (b) Image Segmentation (c) Object Detection (d) Feature Extraction",
+          "options_style": "(a) Image Classification  (b) Image Segmentation  (c) Object Detection  (d) Feature Extraction",
+          "num_options": 4
+        },
+        {
+          "type": "CNN Architecture",
+          "example": "Image Processing is mainly focused on enhancing raw input images. It is a subset of ___. (a) Computer Vision; Image Processing (b) Machine Learning; AI (c) Image Processing; Computer Vision (d) Object Detection; Image Processing",
+          "options_style": "(a) CV, IP  (b) ML, AI  (c) IP, CV  (d) OD, IP",
+          "num_options": 4
+        }
+      ],
+      "pyq_examples": [
+        "Self-driving car fails to detect pedestrians at night — which AI domain?",
+        "1280x1024, 1920x1080, 640x480 represent — what term?",
+        "What does pixel value represent in a grayscale image?",
+        "Identify object detection from picture showing CAT, DOG, DUCK with bounding boxes.",
+        "Image Processing is a subset of ___ and focused on ___.",
+        "How many channels does a colour image have?",
+        "Explain Computer Vision and its primary goal.",
+        "What is a byte image format in digital images?"
+      ]
+    },
+    "Natural Language Processing": {
+      "description": "NLP stages, text normalization, tokenization, BoW, TF-IDF, sentiment analysis, chatbots, stemming, lemmatization, corpus, stop words",
+      "marks_weightage": 8,
+      "question_types": [
+        {
+          "type": "NLP Applications",
+          "example": "Aditi developed a chatbot that clarifies doubts of Economics students. Identify the domain of AI. (a) Computer Vision (b) Data Science (c) NLP (d) None of these",
+          "options_style": "(a) CV  (b) Data Science  (c) NLP  (d) None",
+          "num_options": 4
+        },
+        {
+          "type": "Text Normalization & Tokenization",
+          "example": "In text normalization, the term used for the whole textual data from all documents altogether is ___. (a) Corpus (b) Tokens (c) Lemma (d) Stem",
+          "options_style": "(a) Corpus  (b) Tokens  (c) Lemma  (d) Stem",
+          "num_options": 4
+        },
+        {
+          "type": "Stemming & Lemmatization",
+          "example": "What are the stemmed and lemmatized forms of the word 'flies'? (a) Stemmed: fly, Lemmatized: flies (b) Stemmed: fly, Lemmatized: fly (c) Stemmed: flies, Lemmatized: flies (d) Stemmed: fli, Lemmatized: fly",
+          "options_style": "(a) fly/flies  (b) fly/fly  (c) flies/flies  (d) fli/fly",
+          "num_options": 4
+        },
+        {
+          "type": "Bag of Words",
+          "example": "Which algorithm results in two things: a vocabulary of words and frequency of words in a corpus? (a) Sentence segmentation (b) Tokenisation (c) Bag of Words (d) Text normalisation",
+          "options_style": "(a) Sentence segmentation  (b) Tokenisation  (c) Bag of Words  (d) Text normalisation",
+          "num_options": 4
+        },
+        {
+          "type": "Chatbot Types",
+          "example": "Which type of bot uses simple FAQs without any intelligence? (a) Smart Chatbot (b) Script Chatbot (c) AI Chatbot (d) ML Chatbot",
+          "options_style": "(a) Smart  (b) Script  (c) AI  (d) ML",
+          "num_options": 4
+        },
+        {
+          "type": "Sentiment Analysis & NLP Tasks",
+          "example": "Spam filtering in email is an example of ___. (a) Text summarisation (b) Text Classification (c) Sentiment Analysis (d) None of the above",
+          "options_style": "(a) Text summarisation  (b) Text Classification  (c) Sentiment Analysis  (d) None",
+          "num_options": 4
+        },
+        {
+          "type": "NLP Stages",
+          "example": "Identify the stage of NLP: 'We are to the zoo going tomorrow' → 'We are going to the zoo tomorrow.'",
+          "options_style": "(a) Lexical Analysis  (b) Syntactic Analysis  (c) Semantic Analysis  (d) Logical Analysis",
+          "num_options": 4
+        },
+        {
+          "type": "Token Counting",
+          "example": "Count the number of tokens in: 'Traffic Jams have become a common part of our lives nowadays.'",
+          "options_style": "Numerical answer — count distinct words/tokens",
+          "num_options": 4
+        }
+      ],
+      "pyq_examples": [
+        "In text normalization, the term for whole textual data from all documents is ___.",
+        "Chatbots and smart bots are related to ___ domain of AI.",
+        "What is a chatbot called which uses simple FAQs without any intelligence?",
+        "Spam filtering in email is an example of ___.",
+        "In which of the following is a person constantly followed/chased by another person? (Stalking vs NLP context)",
+        "Stemmed and lemmatized forms of 'flies'?",
+        "Which algorithm results in vocabulary of words and frequency — Bag of Words?",
+        "Count tokens in given sentence.",
+        "Recall method does not depend on True Negative — True/False.",
+        "Define text normalization and explain steps involved.",
+        "What is the need of text normalization in NLP?",
+        "Identify the NLP stage: We are to the zoo going tomorrow → We are going to the zoo tomorrow."
+      ]
+    },
+    "Employability Skills": {
+      "description": "Communication skills, self-management, ICT skills, entrepreneurial skills, green skills, SDGs",
+      "marks_weightage": 10,
+      "question_types": [
+        {
+          "type": "Communication Skills",
+          "example": "Rohit bids goodbye by waving his hand. Which type of non-verbal communication is used? (a) Expression (b) Body language (c) Gesture (d) All of the above",
+          "options_style": "(a) Expression  (b) Body language  (c) Gesture  (d) All",
+          "num_options": 4
+        },
+        {
+          "type": "Self-Management Skills",
+          "example": "Pranjali gets up at 5 am, goes to badminton, finishes homework before school — all by herself. This is an example of (a) Self-motivation (b) External motivation (c) Both (d) Neither",
+          "options_style": "(a) Self-motivation  (b) External motivation  (c) Both  (d) Neither",
+          "num_options": 4
+        },
+        {
+          "type": "ICT Skills",
+          "example": "Which is a valid file extension for Notepad file? (a) .jpg (b) .doc (c) .text (d) .txt",
+          "options_style": "(a) .jpg  (b) .doc  (c) .text  (d) .txt",
+          "num_options": 4
+        },
+        {
+          "type": "Entrepreneurial Skills",
+          "example": "Sanjana opened a small grocery store, expanded, opened 4 branches, now expanding to 2 more cities. Which stage is she in? (a) Survive (b) Enter (c) Grow (d) Retire",
+          "options_style": "(a) Survive  (b) Enter  (c) Grow  (d) Retire",
+          "num_options": 4
+        },
+        {
+          "type": "Green Skills & SDGs",
+          "example": "The aim of Sustainable Development is (a) self-resistance (b) save natural resources (c) utilize judiciously and ensure availability for future generations (d) All of these",
+          "options_style": "(a) Option  (b) Option  (c) Option  (d) All",
+          "num_options": 4
+        }
+      ],
+      "pyq_examples": [
+        "Pranjali gets up at 5 am and goes to badminton classes — self-motivation or external?",
+        "Valid file extension for Notepad — .txt",
+        "Ravi's customer shouts at him, he listens patiently — Hardworking/Confident/Patient/New ideas?",
+        "Statement 1: A realistic goal has no timeline. Statement 2: Breaking big goals into smaller parts makes them achievable.",
+        "Rohit bids goodbye by waving hands — which non-verbal communication type?",
+        "Aim of sustainable development is to ___.",
+        "When you hover over a file in File Explorer, it shows details — this is called?",
+        "Which type of non-verbal communication is shown by raising a hand to greet?",
+        "Donating unused things contributes to which SDG?",
+        "Write two ways to overcome barriers to effective communication.",
+        "What are core skills required to contribute towards environment?"
+      ]
+    }
+  },
+  "full_mock_pattern": {
+    "description": "CBSE AI 417 Class X Board Pattern — 50 marks, 2 hours",
+    "total_marks": 50,
+    "total_time_minutes": 120,
+    "sections": [
+      {
+        "name": "Section A - Objective",
+        "marks": 24,
+        "questions": [
+          {"type": "Q1 Employability MCQ", "pool": 6, "attempt": 4, "marks_each": 1, "chapter": "Employability Skills"},
+          {"type": "Q2 AI Core MCQ", "pool": 6, "attempt": 5, "marks_each": 1, "chapter": "AI Project Cycle & Ethics"},
+          {"type": "Q3 Modeling MCQ", "pool": 6, "attempt": 5, "marks_each": 1, "chapter": "Modeling in AI"},
+          {"type": "Q4 Evaluation MCQ", "pool": 6, "attempt": 5, "marks_each": 1, "chapter": "Evaluating Models"},
+          {"type": "Q5 CV+NLP MCQ", "pool": 6, "attempt": 5, "marks_each": 1, "chapter": "Computer Vision"}
+        ]
+      },
+      {
+        "name": "Section B - Subjective",
+        "marks": 26,
+        "questions": [
+          {"type": "Short Answer Employability", "pool": 5, "attempt": 3, "marks_each": 2, "chapter": "Employability Skills"},
+          {"type": "Short Answer Subject", "pool": 6, "attempt": 4, "marks_each": 2, "chapter": "mixed"},
+          {"type": "Long Answer", "pool": 5, "attempt": 3, "marks_each": 4, "chapter": "mixed"}
+        ]
+      }
+    ]
+  }
+}
